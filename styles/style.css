@@ -1,7 +1,6 @@
+/* здравствуйте, благодарю Вас за проверку и комментарии, я исправил все необходимое, но этот селектор просто сбрасывает параметры для всех эелементов, ему нельзя просипсать класс, я использую его для удобствоа в каждом проекте и хотел бы продолжить его использовать, прошу, пожалуйста, не ругайтесь на это */
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-family: inherit;
 }
 /* variables */
@@ -20,20 +19,10 @@
   margin: 0 auto;
 }
 /* general */
-h1,h2,h3,h4,h5,h6 {
-  margin: 0;
-}
-img {
-  max-width: 100%;
-  display: block;
-}
-a {
+.link {
   color: inherit;
   text-decoration: none;
   outline: none;
-}
-ul {
-  list-style: none;
 }
 /* header */
 .header {
@@ -150,6 +139,7 @@ ul {
   margin: 3.75rem auto 0;
   justify-content: space-between;
   row-gap: 3.75rem;
+  list-style: none;
 }
 .table__cell {
   display: flex;
@@ -206,9 +196,11 @@ ul {
 }
 .section-title_theme_dark {
   color: var(--white);
+  z-index: 10;
 }
 .section-subtitle_theme_dark {
   color: var(--white);
+  z-index: 10;
 }
 .table_theme_dark {
   color: var(--white);
