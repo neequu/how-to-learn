@@ -32,6 +32,9 @@ a {
   text-decoration: none;
   outline: none;
 }
+ul {
+  list-style: none;
+}
 /* header */
 .header {
   height: 100vh;
@@ -57,7 +60,7 @@ a {
   right: 0;
   max-height: 608px;
   max-width: 765px;
-  z-index: 10;
+  z-index: 1;
 }
 .header__square-pic {
   height: 568px;
@@ -75,6 +78,7 @@ a {
   line-height: 96px;
   font-size: 6.375rem;
   max-width: 730px;
+  z-index: 10;
 }
 .header__subtitle {
   position: absolute;
@@ -84,6 +88,7 @@ a {
   max-width: 388px;
   line-height: 25px;
   font-size: 1.125rem;
+  z-index: 10;
 }
 .header__link, .feynman__link {
   color: var(--blue);
@@ -112,7 +117,7 @@ a {
   line-height: 34px;
   font-size: 1.5rem;
 }
-.span-accent {
+.two-columns__span-accent {
   font-weight: 600;
 }
 /* section - digits */
@@ -120,7 +125,7 @@ a {
   text-align: center;
   margin-bottom: 100px;
 }
-.section__title {
+.section-title {
   width: 60%;
   margin: 0 auto;
   margin-bottom: 1.25rem;
@@ -128,7 +133,7 @@ a {
   font-size: 3.75rem;
   font-weight: 600;
 }
-.section__subtitle {
+.section-subtitle {
   width: 60%;
   margin: 0 auto;
   line-height: 34px;
@@ -139,7 +144,7 @@ a {
   flex-wrap: wrap;
   text-align: left;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 3.75rem auto 0;
   justify-content: space-between;
   row-gap: 3.75rem;
 }
@@ -148,7 +153,6 @@ a {
   flex-direction: column;
   gap: 20px;
   width: 250px;
-  margin-top: 3.75rem;
 }
 .table__heading {
   line-height: 1.15;
@@ -197,10 +201,10 @@ a {
   overflow: hidden;
   padding: 5.625rem 0;
 }
-.section__title_theme_dark {
+.section-title_theme_dark {
   color: var(--white);
 }
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: var(--white);
 }
 .table_theme_dark {
@@ -208,12 +212,12 @@ a {
   margin-bottom: 0;
   z-index: 10;
   row-gap: 5rem;
+  margin-top: 5rem;
 }
 .table__cell_theme_dark {
   width: 200px;
   color: var(--white);
   margin-right: 0;
-  margin-top: 5rem;
   z-index: 10;
 }
 .table__heading_theme_dark {
@@ -270,4 +274,5 @@ a {
 .footer__column-link {
   display: flex;
   gap: 0.625rem;
+  font-size: 1.125rem;
 }
