@@ -91,7 +91,7 @@ ul {
 .header__subtitle, 
 .header__title, 
 .logo_place_header {
-  z-index: 100;
+  z-index: 50;
 }
 .header__link, .feynman__link {
   color: var(--blue);
