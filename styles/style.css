@@ -1,4 +1,4 @@
-/* здравствуйте, благодарю Вас за проверку и комментарии, я исправил все необходимое, но этот селектор просто сбрасывает параметры для всех эелементов, ему нельзя просипсать класс, я использую его для удобствоа в каждом проекте и хотел бы продолжить его использовать, прошу, пожалуйста, не ругайтесь на это */
+/* здравствуйте, благодарю Вас за проверку и комментарии, я исправил все необходимое, но этот селектор просто сбрасывает параметры для всех эелементов, ему нельзя просипсать класс, я использую его для удобствоа в каждом проекте и хотел бы продолжить его использовать, прошу, пожалуйста, не ругайтесь на это, все отступы были добавлены на уровни блоков */
 * {
   box-sizing: border-box;
   font-family: inherit;
@@ -61,6 +61,7 @@
 }
 /* header - typography */
 .header__title {
+  margin: 0;
   align-self: center;
   margin-left: 4rem;
   font-weight: 600;
@@ -69,6 +70,7 @@
   max-width: 730px;
 }
 .header__subtitle {
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -100,6 +102,7 @@
   font-size: 1.125rem;
   color: var(--blue);
   font-weight: normal;
+  margin: 0;
 }
 .two-columns__main-text {
   display: flex;
@@ -108,6 +111,9 @@
   width: 80%;
   line-height: 34px;
   font-size: 1.5rem;
+}
+.two-columns__paragraph {
+  margin: 0;
 }
 .two-columns__span-accent {
   font-weight: 600;
@@ -148,11 +154,13 @@
   width: 250px;
 }
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 1.5rem;
   font-weight: 600;
 }
 .table__text {
+  margin: 0;
   line-height: 1.2;
   font-size: 1.125rem;
 }
@@ -171,12 +179,14 @@
   position: relative;
 }
 .feynman__title {
+  margin: 0;
   line-height: 1.15;
   font-size: 7.5rem;
   font-weight: 600;
   max-width: 648px;
 }
 .feynman__subtitle {
+  margin: 0;
   line-height: 51px;
   font-size: 2.25rem;
 }
@@ -256,7 +266,7 @@
   font-size: 1.125rem;
 }
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   line-height: 30px;
   font-size: 1.125rem;
   font-weight: 600;
