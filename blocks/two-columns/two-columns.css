@@ -10,6 +10,6 @@
     align-items: flex-start;
     min-width: 784px;
     width: 80%;
-    margin: 100px auto 0;
+    margin-inline: auto;
     box-sizing: border-box;
   }

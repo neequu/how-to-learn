@@ -1,20 +1,4 @@
-@import url(../root/root.css);
-@import url(../digits/digits.css);
-@import url(../feynman/feynman.css);
-@import url(../footer/footer.css);
-@import url(../header/header.css);
-@import url(../kaufman/kaufman.css);
-@import url(../logo/logo.css);
-@import url(../section-subtitle/section-subtitle.css);
-@import url(../section-title/section-title.css);
-@import url(../table/table.css);
-@import url(../two-columns/two-columns.css);
-@import url(../cards/cards.css);
-@import url(../techniques/techniques.css);
-@import url(../video/video.css);
-@import url(../oakley/oakley.css);
-@import url(../khan/khan.css);
-@import url(../resources/resources.css);
+
 .page {
     min-width: 1100px;
     max-width: 1600px;
