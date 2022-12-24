@@ -1,0 +1,15 @@
+@import url(./__main-text/two-columns__main-text.css);
+@import url(./__paragraph/two-columns__paragraph.css);
+@import url(./__span-accent/two-columns__span-accent.css);
+@import url(./__title/two-columns__title.css);
+
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 784px;
+    width: 80%;
+    margin: 100px auto 0;
+    box-sizing: border-box;
+  }

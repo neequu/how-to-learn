@@ -1,0 +1,7 @@
+.table_theme_dark {
+    color: var(--white);
+    margin-bottom: 0;
+    z-index: 10;
+    row-gap: 5rem;
+    margin-top: 5rem;
+  }
