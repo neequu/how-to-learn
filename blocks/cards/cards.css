@@ -1,9 +1,5 @@
-@import url(./__description/cards__description.css);
-@import url(./__image/cards__image.css);
-@import url(./__item/cards__item.css);
-@import url(./__title/cards__title.css);
-
 .cards {
+    outline: 3px magenta solid;
     max-width: 920px;
     width: 100%;
     margin-inline: auto;
