@@ -1,0 +1,12 @@
+
+
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 784px;
+    width: 80%;
+    margin-inline: auto;
+    box-sizing: border-box;
+  }
