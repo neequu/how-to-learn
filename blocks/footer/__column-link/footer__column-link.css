@@ -1,8 +1,7 @@
-
 .footer__column-link {
     display: flex;
-    gap: 0.625rem;
-    font-size: 1.125rem;
+    gap: 10px;
+    font-size: 18px;
     text-decoration: none;
     outline: none;
     color: inherit;

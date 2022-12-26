@@ -1,7 +1,7 @@
 .khan__buy-link {
     text-decoration: none;
     color: var(--blue);
-    font-size: 1.875rem;
+    font-size: 30px;
     transition: opacity 120ms ease;
 }
 

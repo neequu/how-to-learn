@@ -1,13 +1,11 @@
-
-
 .table {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
     max-width: 1100px;
-    margin: 3.75rem auto 0;
+    margin: 60px auto 0;
     justify-content: space-between;
-    row-gap: 3.75rem;
+    row-gap: 60px;
     list-style: none;
     padding: 0;
   }

@@ -1,10 +1,10 @@
 .header__title {
     margin: 0;
     align-self: center;
-    margin-left: 4rem;
+    margin-left: 64px;
     font-weight: 600;
     line-height: 96px;
-    font-size: 6.375rem;
+    font-size: 102px;
     max-width: 730px;
     z-index: 50;
   }
